@@ -29,18 +29,7 @@ public class MainActivity extends AppCompatActivity {
         myEditText = findViewById(R.id.editText);
         button = findViewById(R.id.button);
         myEditText = findViewById(R.id.editText);
-        button = findViewById(R.id.button);myEditText = findViewById(R.id.editText);
-        button = findViewById(R.id.button);myEditText = findViewById(R.id.editText);
-        button = findViewById(R.id.button);myEditText = findViewById(R.id.editText);
-        button = findViewById(R.id.button);myEditText = findViewById(R.id.editText);
-        button = findViewById(R.id.button);myEditText = findViewById(R.id.editText);
-        button = findViewById(R.id.button);myEditText = findViewById(R.id.editText);
-        button = findViewById(R.id.button);myEditText = findViewById(R.id.editText);
-        button = findViewById(R.id.button);myEditText = findViewById(R.id.editText);
-        button = findViewById(R.id.button);myEditText = findViewById(R.id.editText);
-        button = findViewById(R.id.button);myEditText = findViewById(R.id.editText);
-        button = findViewById(R.id.button);myEditText = findViewById(R.id.editText);
-        button = findViewById(R.id.button);
+
         ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, PackageManager.PERMISSION_GRANTED);
 
         button.setOnClickListener(new View.OnClickListener() {
