@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         Paint myPaint = new Paint();
         String myString = myEditText.getText().toString();
-        int x = 10, y=25;
+        int x = 12, y=25;
 
         for (String line:myString.split("\n")){
             myPage.getCanvas().drawText(line, x, y, myPaint);
