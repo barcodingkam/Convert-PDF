@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         myEditText = findViewById(R.id.editText);
         button1 = findViewById(R.id.button);
         myEditText = findViewById(R.id.editText);
-        myEditText = findViewById(R.id.editText); myEditText = findViewById(R.id.editText);
+        myEditText = findViewById(R.id.editText);
 
         ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, PackageManager.PERMISSION_GRANTED);
 
