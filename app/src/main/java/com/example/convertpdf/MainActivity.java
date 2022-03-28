@@ -19,7 +19,7 @@ import java.io.FileOutputStream;
 public class MainActivity extends AppCompatActivity {
 
     private EditText myEditText;
-    private Button button;
+    private Button button1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,12 +27,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         myEditText = findViewById(R.id.editText);
-        button = findViewById(R.id.button);
+        button1 = findViewById(R.id.button);
         myEditText = findViewById(R.id.editText);
+        myEditText = findViewById(R.id.editText); myEditText = findViewById(R.id.editText);
 
         ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, PackageManager.PERMISSION_GRANTED);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 createMyPDF(view);
