@@ -19,7 +19,7 @@ import java.io.FileOutputStream;
 public class MainActivity extends AppCompatActivity {
 
     private EditText myEditText;
-    private Button button1;
+    private Button button1,Button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
